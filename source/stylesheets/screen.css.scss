@@ -101,6 +101,13 @@ html, body {
       color: $nav-text;
       @extend %icon-search;
     }
+
+  }
+
+
+  .search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
   }
 
   .search-results {
